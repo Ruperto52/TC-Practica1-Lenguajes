@@ -64,7 +64,7 @@ La aplicación (desarrollada en Python con Tkinter) implementa los siguientes m�
 python --version
 ```
 
-Esto debería mostrar la versión instalada de Python.
+Esto debería mostrar la versión instalada de Python. Para esta aplicacion ocuparemos la version de python 3.12.3
 
 2.**Instalar Visual Studio Code**
 
@@ -299,7 +299,11 @@ except Exception as e:
 
 ## Como es que se debe ejecutar y utilizar
 ### Primeros pasos
-Lo primero que haremos sera como anteriormente lo habiamos explicado crear nuestro entorno virtual, instalar Tkinter dentro de nuestro entorno virtual para estar listos para poder ejecutar el programa y asi ver la interfaz grafica.
+Lo primero que haremos sera como anteriormente lo habiamos explicado crear nuestro entorno virtual,en el cual debemos de verificar que la version de ```python es 3.12.3```, una vez comprobado esta version lo que tenemos que hacer es instalar Tkinter, la version que ocuparemos de Tkinter sera: ```8.6.14``` dentro de nuestro entorno virtual para estar listos para poder ejecutar el programa y asi ver la interfaz grafica.
+
+* Para saber que version tenemos dentro de nuestro entorno virtual desde la linea de comando es: 
+  * Saber version de python: ```python3 --version```
+  * Saber que version de Tkinter: ```python3 -m tkinter```
 
 Una vez creado nuestro entorno virtual y la libreria de Tkinter estamos listos para ejecutar el comando dentro de la terminal para compilar asi nuestro archivo principal que seria el comando: 
 
