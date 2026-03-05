@@ -108,7 +108,7 @@ Para ello, ejecute el siguiente comando en la terminal:
 
 **Probar un Programa Simple en Tkinter**
 * Cree un archivo Python: En la carpeta de su proyecto, cree un archivo con el nombre **app.py**.
-* Escriba el siguiente código básico en el archivo app.py para probar Flet:
+* Escriba el siguiente código básico en el archivo app.py para probar Tkinter:
 
  ```python
 from tkinter import Tk, Label
